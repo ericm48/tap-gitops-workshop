@@ -39,7 +39,7 @@ cd $WORKSHOP_ROOT
 mkdir -p workshop-clusters
 tar xvf tanzu-gitops-ri-0.2.5.tgz -C workshop-clusters
 cd workshop-clusters
-git init -b main
+git init --bare main
 git add . && git commit -m "Initialize Tanzu GitOps RI"
 ```
 
